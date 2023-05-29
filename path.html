@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triangle</title>
+</head>
+<body>
+    <svg width="600" height="600">
+        <path d="M 150 50 L 75 200 L 225 200 Z" fill="orange"></path>
+        <path d="M 350 50 L 275 200 L 425 200 C 425 200 350 150 350 50" fill="pink"></path>
+        <circle cx="350" cy="150" r="3" fill="black"></circle>
+        <line x1="425" x2="350" y1="200" y2="150" stroke-width="2" stroke="black"></line>
+    </svg>
+</body>
+</html>
+
+<!-- 
+
+L = lineto
+M = moveto
+Z = closepath
+H = horizontal line
+V = vertical line
+C = curveto {start, controlpoint, end}
+S = smooth curveto 
+
+-->
